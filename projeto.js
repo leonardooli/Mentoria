@@ -1,10 +1,3 @@
-const caixaEletronico = {
-  cem: '100',
-  cinquenta:'50',
-  vinte: '20',
-  dez: '10'
-};
-
 getMoney = (saque) => {
 
     if(saque % 100 == 0) {
