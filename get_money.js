@@ -1,4 +1,4 @@
-getMoney = (saque) => {
+module.exports = (saque) => {
 
     if(saque % 100 == 0) {
       return Math.trunc(saque / 100) + " " + "notas de R$100"
@@ -73,4 +73,3 @@ getMoney = (saque) => {
         }
     }
 };
-getMoney(30);
