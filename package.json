@@ -1,0 +1,11 @@
+{
+  "name": "mentoria",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}

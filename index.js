@@ -1,4 +1,6 @@
-const getMoney = require('./get_money');
+const caixaEletronico = require('./lib/caixa_eletronico');
 
-const resultado = getMoney(process.argv[2]);
+
+const notes = caixaEletronico.getNotes(process.argv[2]);
+const resultado = caixaEletronico.result(notes); 
 console.log(resultado);
